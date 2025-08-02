@@ -17,7 +17,8 @@ const montserrat = Montserrat({
 const title = 'Obasi Ifebuche Vera | Frontend  Developer';
 const description =
   "I'm skilled in HTML, CSS, JavaScript, React, Tailwind CSS, TypeScript, Next.js, Git & GitHub. I'm especially drawn to JavaScript and love building in its ecosystem. My goal is to not just build, but to build useful — platforms that make people's lives easier and businesses more efficient";
-const url = 'https://sagarshah.dev';
+// const url = 'https://sagarshah.dev';
+const url = "https://obasi-vera.vercel.app/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),

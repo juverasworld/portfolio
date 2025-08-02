@@ -28,7 +28,7 @@ const Footer = () => {
           >
             coded
           </Link>
-          &nbsp;with ❤️️ by Obasi Vera
+          &nbsp;by Vera
         </Typography>
       </div>
     </footer>
