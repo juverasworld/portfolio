@@ -28,6 +28,7 @@ import LogoDotnpixelLight from "/public/images/logos/cwito.svg";
 
 import ProjectFiskil from "/public/images/daba-bg.png";
 import ProjectWingie from "/public/images/stakecut-bg.png";
+import ProjectWingiea from "/public/images/social.jpg";
 import ProjectWingies from "/public/images/vemo.png";
 import ProjectPepehousing from "/public/images/gscw.png";
 
@@ -181,6 +182,14 @@ export const EXPERIENCES: ExperienceDetails[] = [
 ];
 
 export const PROJECTS: ProjectDetails[] = [
+  {
+    name: "Social Media Banner Creator",
+    description:
+      "A platform for creating and customizing social media banners. I designed the user interface and implemented responsive layouts to ensure a seamless user experience across devices.",
+    url: "https://social-banner-personalizer.vercel.app",
+    previewImage: ProjectWingiea,
+    technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
+  },
   {
     name: "Stakecut",
     description:
