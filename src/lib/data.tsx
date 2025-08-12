@@ -21,6 +21,8 @@ import LogoStorybook from "/public/images/logos/icon-storybook.svg";
 import LogoGit from "/public/images/logos/icon-git.svg";
 
 import LogoUpwork from "/public/images/stakecut.svg";
+import LogoUpworks from "/public/images/soul.png";
+import LogoUpworkss from "/public/images/mfc.png";
 import LogoGreenApex from "/public/images/daba.svg";
 import LogoGreenApexLight from "/public/images/daba.svg";
 import LogoDotnpixel from "/public/images/logos/cwito.svg";
@@ -138,6 +140,21 @@ export const TECHNOLOGIES: TechDetails[] = [
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
+    logo: LogoUpworkss,
+    logoAlt: "Mfc logo",
+    position: "Frontend Developer",
+    startDate: new Date(2025, 7),
+    currentlyWorkHere: false,
+    summary: [
+      
+      "Used Animation,Gsap, framer motion, Tailwind CSS, TypeScript, and Next.js to implement frontend logic to ensure a seamless activity .",
+      "Improved site performance, UX, and responsiveness in collaboration with backend teams.",
+      "Developed reusable components and libraries to streamline development.",
+      "Collaborated via GitHub, Figma, and Slack in remote agile teams.",
+    ],
+  },
+  
+  {
     logo: LogoUpwork,
     logoAlt: "Stakecut logo",
     position: "Frontend Developer",
@@ -183,11 +200,28 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
+    name: "My Family Companion ",
+    description:
+      "A book launch website for buying books with paystack gateway integrated",
+    url: "https://mfc-one.vercel.app/",
+    previewImage: LogoUpworkss,
+    technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
+  },
+
+  {
     name: "Social Media Banner Creator",
     description:
       "A platform for creating and customizing social media banners. I designed the user interface and implemented responsive layouts to ensure a seamless user experience across devices.",
     url: "https://social-banner-personalizer.vercel.app",
     previewImage: ProjectWingiea,
+    technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
+  },
+  {
+    name: "Soul Sync",
+    description:
+      "A clean, intuitive digital space where you can track emotions, reflect intentionally, and sync with others. Not just another journaling app—SoulSync helps you connect your thoughts, moods, and purpose.",
+    url: "https://soul-sync-xjqs.vercel.app/",
+    previewImage: LogoUpworks,
     technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
   },
   {
