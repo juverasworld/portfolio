@@ -29,6 +29,7 @@ import LogoDotnpixel from "/public/images/logos/cwito.svg";
 import LogoDotnpixelLight from "/public/images/logos/cwito.svg";
 
 import ProjectFiskil from "/public/images/daba-bg.png";
+import ProjectFiskils from "/public/images/midcrib.png";
 import ProjectWingie from "/public/images/stakecut-bg.png";
 import ProjectWingiea from "/public/images/social.jpg";
 import ProjectWingies from "/public/images/vemo.png";
@@ -214,6 +215,14 @@ export const PROJECTS: ProjectDetails[] = [
       "A platform for creating and customizing social media banners. I designed the user interface and implemented responsive layouts to ensure a seamless user experience across devices.",
     url: "https://social-banner-personalizer.vercel.app",
     previewImage: ProjectWingiea,
+    technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
+  },
+  {
+    name: "Soul Sync",
+    description:
+      "A clean, intuitive digital platform for booking and getting developers to work on your project.",
+    url: "https://midcrib.vercel.app/",
+    previewImage: ProjectFiskils,
     technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
   },
   {
