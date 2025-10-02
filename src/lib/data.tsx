@@ -21,6 +21,10 @@ import LogoStorybook from "/public/images/logos/icon-storybook.svg";
 import LogoGit from "/public/images/logos/icon-git.svg";
 
 import LogoUpwork from "/public/images/stakecut.svg";
+import Gloom from "/public/images/gllom.png";
+import  Bluion from "/public/images/bullion.png";
+import  Doc from "/public/images/document.png";
+import  PK from "/public/images/pk.png";
 import LogoUpworks from "/public/images/soul.png";
 import LogoUpworkss from "/public/images/mfc.png";
 import LogoGreenApex from "/public/images/daba.svg";
@@ -201,11 +205,51 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
+    name: "Vera Photography ",
+    description:
+      "A Phography website for showcasing photography services and portfolio",
+    url: "https://dark-rosy.vercel.app/",
+    previewImage: Gloom,
+    technologies: ["Html", "Javascript", "TailwindCSS", "Redux"],
+  },
+  {
+    name: "Document to Speech  ",
+    description:
+      "A document to speech website for converting text documents to audio files",
+    url: "https://document-speech-rlwg.vercel.app/",
+    previewImage: Doc,
+    technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
+  },
+  {
     name: "My Family Companion ",
     description:
       "A book launch website for buying books with paystack gateway integrated",
     url: "https://mfc-one.vercel.app/",
     previewImage: LogoUpworkss,
+    technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
+  },
+  {
+    name: "Vera Forex ",
+    description:
+      "A Foreign exchange website for buying and selling of foreign currencies",
+    url: "https://bulliona.vercel.app/",
+    previewImage: Bluion,
+    technologies: ["html", "Javascript", "TailwindCSS", "Css"],
+  },
+  {
+    name: "My Family Companion ",
+    description:
+      "A book launch website for buying books with paystack gateway integrated",
+    url: "https://mfc-one.vercel.app/",
+    previewImage: LogoUpworkss,
+    technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
+  },
+  {
+    name: "PK Ventures ",
+    description:
+      "A House of real estate website for buying and selling of properties",
+    url: "https://mfc-one.vercel.app/",
+    previewImage: PK,
     technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
   },
 
