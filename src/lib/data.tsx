@@ -24,6 +24,7 @@ import LogoUpwork from "/public/images/stakecut.svg";
 import Gloom from "/public/images/gllom.png";
 import  Bluion from "/public/images/bullion.png";
 import  Doc from "/public/images/document.png";
+import  Assim from "/public/images/assim.png";
 import  PK from "/public/images/pk.png";
 import LogoUpworks from "/public/images/soul.png";
 import LogoUpworkss from "/public/images/mfc.png";
@@ -210,6 +211,14 @@ export const PROJECTS: ProjectDetails[] = [
       "A Phography website for showcasing photography services and portfolio",
     url: "https://dark-rosy.vercel.app/",
     previewImage: Gloom,
+    technologies: ["Html", "Javascript", "TailwindCSS", "Redux"],
+  },
+  {
+    name: "Assim Teacher ",
+    description:
+      "A Platform for teaching student, onboarding teachers and managing classes",
+    url: "https://assim.app/",
+    previewImage: Assim,
     technologies: ["Html", "Javascript", "TailwindCSS", "Redux"],
   },
   {
