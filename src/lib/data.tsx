@@ -236,14 +236,14 @@ export const PROJECTS: ProjectDetails[] = [
     previewImage: Bluion,
     technologies: ["html", "Javascript", "TailwindCSS", "Css"],
   },
-  {
-    name: "My Family Companion ",
-    description:
-      "A book launch website for buying books with paystack gateway integrated",
-    url: "https://mfc-one.vercel.app/",
-    previewImage: LogoUpworkss,
-    technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
-  },
+  // {
+  //   name: "My Family Companion ",
+  //   description:
+  //     "A book launch website for buying books with paystack gateway integrated",
+  //   url: "https://mfc-one.vercel.app/",
+  //   previewImage: LogoUpworkss,
+  //   technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
+  // },
   {
     name: "PK Ventures ",
     description:
