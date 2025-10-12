@@ -19,6 +19,10 @@ import LogoCypress from "/public/images/logos/icon-cypress.svg";
 import LogoCypressLight from "/public/images/logos/icon-cypress-light.svg";
 import LogoStorybook from "/public/images/logos/icon-storybook.svg";
 import LogoGit from "/public/images/logos/icon-git.svg";
+import Advaatise from "/public/images/advaatise.png";
+import Emgeresources from "/public/images/emgeresources.png";
+import DollarShow from "/public/images/logos/image.png";
+import QrCode from "/public/images/qrcodegenerator.png";
 
 import LogoUpwork from "/public/images/stakecut.svg";
 import Gloom from "/public/images/gllom.png";
@@ -219,6 +223,27 @@ export const PROJECTS: ProjectDetails[] = [
       "A Platform for teaching student, onboarding teachers and managing classes",
     url: "https://assim.app/",
     previewImage: Assim,
+    technologies: ["Html", "Javascript", "TailwindCSS"],
+  },
+  {
+    name: "EmgeResouces Landing Page ",
+    description: "A Healthcare website for showcasing medical services",
+    url: "https://emge-nine.vercel.app/",
+    previewImage: Emgeresources,
+    technologies: ["Html", "Javascript", "TailwindCSS", "CSS"],
+  },
+  {
+    name: "QR Code Generator ",
+    description: "QR Code Generator website for generating QR and Bar codes",
+    url: "https://qr-code-alpha-wheat.vercel.app/",
+    previewImage: QrCode,
+    technologies: ["Html", "Javascript", "TailwindCSS", "CSS"],
+  },
+  {
+    name: "Advaatise ",
+    description: "A Platform for Video Editing, uploading and managing videos",
+    url: "https://adaatise.vercel.app/",
+    previewImage: Advaatise,
     technologies: ["Html", "Javascript", "TailwindCSS", "Redux"],
   },
   {
@@ -236,6 +261,14 @@ export const PROJECTS: ProjectDetails[] = [
     url: "https://mfc-one.vercel.app/",
     previewImage: LogoUpworkss,
     technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
+  },
+  {
+    name: "Dollar Hunt Show ",
+    description:
+      "A Website for gamifying adversting and marketing in the web3 space",
+    url: "https://dollar-hunt-show.vercel.app/",
+    previewImage: DollarShow,
+    technologies: ["html", "Javascript", "TailwindCSS", "Css"],
   },
   {
     name: "Vera Forex ",
