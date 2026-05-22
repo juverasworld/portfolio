@@ -209,6 +209,38 @@ export const EXPERIENCES: ExperienceDetails[] = [
 ];
 
 export const PROJECTS: ProjectDetails[] = [
+   {
+    name: "Stakecut",
+    description:
+      "A social fintech platform that empowers creators, vendors, and affiliates to earn commissions by promoting digital products. I worked on building dashboards, landing pages, and user flows for both affiliates and vendors.",
+    url: "https://stakecut.com",
+    previewImage: ProjectWingie,
+    technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
+  },
+   {
+    name: "Digital Abundance",
+    description:
+      "The parent company behind Daba School, a platform focused on financial education and wealth-building through digital courses. I contributed to landing pages, course discovery, and performance optimization.",
+    url: "https://daba.school/",
+    previewImage: ProjectFiskil,
+    technologies: [
+      "React",
+      "Next.js",
+      "Typescript",
+      "Tailwindcss",
+      "Material UI",
+      "Redux Toolkit",
+      "React Query",
+    ],
+  },
+    {
+    name: "My Family Companion ",
+    description:
+      "A book launch website for buying books with paystack gateway integrated",
+    url: "https://mfc-one.vercel.app/",
+    previewImage: LogoUpworkss,
+    technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
+  },
   {
     name: "Vera Photography ",
     description:
@@ -254,14 +286,7 @@ export const PROJECTS: ProjectDetails[] = [
     previewImage: Doc,
     technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
   },
-  {
-    name: "My Family Companion ",
-    description:
-      "A book launch website for buying books with paystack gateway integrated",
-    url: "https://mfc-one.vercel.app/",
-    previewImage: LogoUpworkss,
-    technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
-  },
+
   {
     name: "Dollar Hunt Show ",
     description:
@@ -319,14 +344,7 @@ export const PROJECTS: ProjectDetails[] = [
     previewImage: LogoUpworks,
     technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
   },
-  {
-    name: "Stakecut",
-    description:
-      "A social fintech platform that empowers creators, vendors, and affiliates to earn commissions by promoting digital products. I worked on building dashboards, landing pages, and user flows for both affiliates and vendors.",
-    url: "https://stakecut.com",
-    previewImage: ProjectWingie,
-    technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
-  },
+ 
   {
     name: "Vemo Writst Watch",
     description:
@@ -335,22 +353,7 @@ export const PROJECTS: ProjectDetails[] = [
     previewImage: ProjectWingies,
     technologies: ["HTML", "CSS", "Javascript", "framer"],
   },
-  {
-    name: "Digital Abundance",
-    description:
-      "The parent company behind Daba School, a platform focused on financial education and wealth-building through digital courses. I contributed to landing pages, course discovery, and performance optimization.",
-    url: "https://daba.school/",
-    previewImage: ProjectFiskil,
-    technologies: [
-      "React",
-      "Next.js",
-      "Typescript",
-      "Tailwindcss",
-      "Material UI",
-      "Redux Toolkit",
-      "React Query",
-    ],
-  },
+ 
   {
     name: "Global School Of Crypto and Web3",
     description:
