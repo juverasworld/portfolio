@@ -24,6 +24,7 @@ import Emgeresources from "/public/images/emgeresources.png";
 import DollarShow from "/public/images/logos/image.png";
 import QrCode from "/public/images/qrcodegenerator.png";
 import ProjectKudiplan from "/public/images/kudi.png";
+import LogoImas from "/public/images/imas.png";
 
 import LogoUpwork from "/public/images/stakecut.svg";
 import Gloom from "/public/images/gllom.png";
@@ -151,24 +152,24 @@ export const TECHNOLOGIES: TechDetails[] = [
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
-    logo: LogoUpworkss,
-    logoAlt: "Mfc logo",
-    position: "Frontend Developer",
-    startDate: new Date(2025, 7),
-    currentlyWorkHere: false,
-    summary: [
-      
-      "Used Animation,Gsap, framer motion, Tailwind CSS, TypeScript, and Next.js to implement frontend logic to ensure a seamless activity .",
-      "Improved site performance, UX, and responsiveness in collaboration with backend teams.",
-      "Developed reusable components and libraries to streamline development.",
-      "Collaborated via GitHub, Figma, and Slack in remote agile teams.",
-    ],
-  },
+  logo: LogoImas, // import your logo at the top
+  logoAlt: "IMAS One logo",
+  position: "EmGE Resources - Frontend Developer",
+  startDate: new Date(2025, 0),
+  currentlyWorkHere: true,
+  summary: [
+    "Built role-based access control and platform filtering across dashboard pages for a multi-platform healthcare staff portal.",
+    "Implemented per-platform GraphQL hooks and a shared usePlatform hook architecture to manage data fetching across different staff roles.",
+    "Developed a PLATFORM_PERMISSION_MAP utility to derive platform access from user role permissions.",
+    "Collaborated with backend teams to wire up real API responses and resolve authentication and middleware issues.",
+  ],
+},
+ 
   
   {
     logo: LogoUpwork,
     logoAlt: "Stakecut logo",
-    position: "Frontend Developer",
+    position: "Stakecut - Frontend Developer",
     startDate: new Date(2021, 10),
     currentlyWorkHere: true,
     summary: [
@@ -183,7 +184,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: LogoGreenApex,
     darkModeLogo: LogoGreenApexLight,
     logoAlt: "Digital Abundance",
-    position: "Frontend Developer",
+    position: "Digital Abundance - Frontend Developer",
     startDate: new Date(2017, 6),
     endDate: new Date(2021, 9),
     summary: [
@@ -198,13 +199,27 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: LogoDotnpixel,
     darkModeLogo: LogoDotnpixelLight,
     logoAlt: "Cwito",
-    position: "Creative Designer",
+    position: "Cwito - Creative Designer",
     startDate: new Date(2015, 11),
     endDate: new Date(2017, 4),
     summary: [
       "Designed visually engaging landing pages for various clients.",
       "Worked as a full stack developer using React for frontend and Laravel for backend.",
       "Collaborated with stakeholders to deliver clean UI/UX experiences.",
+    ],
+  },
+   {
+    logo: LogoUpworkss,
+    logoAlt: "Mfc logo",
+    position: "Mfc - Frontend Developer",
+    startDate: new Date(2025, 7),
+    currentlyWorkHere: false,
+    summary: [
+      
+      "Used Animation,Gsap, framer motion, Tailwind CSS, TypeScript, and Next.js to implement frontend logic to ensure a seamless activity .",
+      "Improved site performance, UX, and responsiveness in collaboration with backend teams.",
+      "Developed reusable components and libraries to streamline development.",
+      "Collaborated via GitHub, Figma, and Slack in remote agile teams.",
     ],
   },
 ];
