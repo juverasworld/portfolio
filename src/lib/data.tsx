@@ -23,6 +23,7 @@ import Advaatise from "/public/images/advaatise.png";
 import Emgeresources from "/public/images/emgeresources.png";
 import DollarShow from "/public/images/logos/image.png";
 import QrCode from "/public/images/qrcodegenerator.png";
+import ProjectKudiplan from "/public/images/kudi.png";
 
 import LogoUpwork from "/public/images/stakecut.svg";
 import Gloom from "/public/images/gllom.png";
@@ -217,6 +218,14 @@ export const PROJECTS: ProjectDetails[] = [
     previewImage: ProjectWingie,
     technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
   },
+  {
+  name: "Kudiplan",
+  description:
+    "A Nigerian personal finance and budgeting platform designed to help users manage income, track expenses, set savings goals, and plan bills. I contributed to building the dashboard UI, onboarding flows, and core financial tracking features.",
+  url: "https://moneyscheduler-wmmy.vercel.app/",
+  previewImage: ProjectKudiplan, // import your image at the top
+  technologies: ["Html", "CSS","local storage", "TailwindCSS", "Redux"],
+},
    {
     name: "Digital Abundance",
     description:
