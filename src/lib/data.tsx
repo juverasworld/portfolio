@@ -45,6 +45,10 @@ import ProjectWingie from "/public/images/stakecut-bg.png";
 import ProjectWingiea from "/public/images/social.jpg";
 import ProjectWingies from "/public/images/vemo.png";
 import ProjectPepehousing from "/public/images/gscw.png";
+import ProjectHirealyze from "/public/images/hirealyz.png";
+import ProjectNLBCS from "/public/images/bibleschool.png";
+import ProjectNLEDC from "/public/images/nledc.png";
+import ProjectNewLife from "/public/images/newlife.png";
 
 import AvatarKrisztian from "/public/images/uche.jpg";
 import AvatarKrisztians from "/public/images/amaka.jpg";
@@ -233,6 +237,23 @@ export const PROJECTS: ProjectDetails[] = [
     previewImage: ProjectWingie,
     technologies: ["Nextjs", "Javascript", "TailwindCSS", "Redux"],
   },
+  
+
+{
+  name: "Hirealyze AI",
+  description:
+    "An AI-powered resume analysis platform that helps job seekers improve their resumes for Applicant Tracking Systems (ATS), identify missing keywords, understand resume weaknesses, and receive actionable recommendations to increase their chances of landing interviews.",
+  url: "https://hirelyze-ai.vercel.app/",
+  previewImage: ProjectHirealyze,
+  technologies: [
+    "React",
+    "Next.js",
+    "TailwindCSS",
+    "JavaScript",
+    "AI Integration",
+    "API Integration"
+  ],
+},
   {
   name: "Kudiplan",
   description:
@@ -273,6 +294,50 @@ export const PROJECTS: ProjectDetails[] = [
     previewImage: Gloom,
     technologies: ["Html", "Javascript", "TailwindCSS", "Redux"],
   },
+  {
+  name: "National Leadership & Business College (NLBCS)",
+  description:
+    "A professional website developed for National Leadership & Business College to showcase its leadership programs, educational initiatives, and organizational mission. I contributed to building a responsive and user-friendly platform that improves accessibility to information about their training, programs, and services.",
+  url: "https://www.nlbcs.com/",
+  previewImage: ProjectNLBCS,
+  technologies: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TailwindCSS",
+    "Responsive Design"
+  ],
+},
+
+{
+  name: "New Life Empowerment Development Centre (NLEDC)",
+  description:
+    "A digital platform developed for New Life Empowerment Development Centre to highlight its community development initiatives, empowerment programs, and social impact efforts. I worked on creating a structured, responsive website experience that communicates their goals and connects users with their initiatives.",
+  url: "https://www.nledc.org/",
+  previewImage: ProjectNLEDC,
+  technologies: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TailwindCSS",
+    "Responsive Design"
+  ],
+},
+
+{
+  name: "New Life Empowerment",
+  description:
+    "A modern organizational website built for New Life Empowerment to present its mission, programs, and impact-driven activities. I contributed to developing an engaging interface with clear navigation, responsive layouts, and an improved digital presence for the organization.",
+  url: "https://www.newlifeempowerment.org/",
+  previewImage: ProjectNewLife,
+  technologies: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TailwindCSS",
+    "Responsive Design"
+  ],
+},
   {
     name: "Assim Teacher ",
     description:
