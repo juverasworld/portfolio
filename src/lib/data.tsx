@@ -46,6 +46,7 @@ import ProjectWingiea from "/public/images/social.jpg";
 import ProjectWingies from "/public/images/vemo.png";
 import ProjectPepehousing from "/public/images/gscw.png";
 import ProjectHirealyze from "/public/images/hirealyz.png";
+
 import ProjectNLBCS from "/public/images/bibleschool.png";
 import ProjectNLEDC from "/public/images/nledc.png";
 import ProjectNewLife from "/public/images/newlife.png";
